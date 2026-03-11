@@ -8,7 +8,7 @@ harga = []
 
 while True:
     # menu
-    print("\n=== CLI Inventaris ===")
+    print("\n MENU INVENTARIS")
     print("1. Input Barang")
     print("2. Delete Barang")
     print("3. Search Barang")
