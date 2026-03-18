@@ -97,3 +97,32 @@ while True:
         hapus()
     elif p == "9":
         break
+
+#NumPy dua dimensi untuk nilai.
+
+#Saat program dijalankan, user akan melihat menu utama yang berisi berbagai pilihan fitur.
+#1. Jika user memilih input, program akan meminta jumlah mahasiswa yang ingin dimasukkan.
+#   Setelah itu, program meminta nama, nilai tugas, nilai UTS, dan nilai UAS satu per satu.
+#   Setiap data yang dimasukkan akan langsung disimpan, nama masuk ke dalam list dan nilai masuk ke dalam array.
+
+#2. Jika user memilih tampilkan data, program akan menampilkan seluruh isi array nilai yang sudah tersimpan.
+
+#3. Ketika user memilih menghitung nilai akhir, program akan mengambil setiap baris nilai dan menghitungnya dengan rumus yang sudah ditentukan.
+#   Hasil nilai akhir kemudian ditampilkan berdampingan dengan nama mahasiswa masing-masing.
+
+#4. Jika user masuk ke menu analisis, program akan menghitung rata-rata dari semua nilai akhir yang ada.
+#   Program juga menghitung median untuk melihat nilai tengah dari keseluruhan data.
+#   Setelah itu, program akan membandingkan nilai UAS setiap mahasiswa dengan median nilai akhir untuk mencari siapa saja yang memenuhi kriteria.
+
+#5. Ketika user memilih fitur top 3, program akan mengurutkan nilai akhir dari yang terendah ke tertinggi.
+#   Lalu program mengambil tiga nilai tertinggi dan menampilkan nama beserta nilainya.
+
+#6. Jika user ingin mencari data, program akan meminta nama mahasiswa yang dicari.
+#   Program kemudian mencocokkan nama tersebut dengan data yang ada dan menampilkan hasilnya jika ditemukan.
+
+#7. Jika user ingin memperbarui nilai, program akan meminta nama mahasiswa lalu mengganti nilai lama dengan nilai baru yang diinput.
+#   Perubahan tersebut langsung disimpan di dalam array tanpa membuat data baru.
+
+#8. Jika user memilih hapus, program akan mencari nama mahasiswa yang dimaksud lalu menghapusnya dari list dan array.
+#   Data yang sudah dihapus tidak akan muncul lagi di sistem.
+#Semua proses ini berjalan berulang di dalam menu sampai user memilih keluar.
