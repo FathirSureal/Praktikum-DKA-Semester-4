@@ -108,3 +108,37 @@ while True:
         cari()
     elif p == "7":
         break
+
+#NumPy dua dimensi untuk data pelanggan (TotalBelanja dan JumlahTransaksi).
+
+#Saat program dijalankan, user akan melihat menu utama yang berisi berbagai pilihan fitur.
+
+#1. Jika user memilih input, program akan meminta jumlah pelanggan yang ingin dimasukkan.
+#   Setelah itu, program meminta nama, total belanja, dan jumlah transaksi satu per satu.
+#   Program juga membuat kode undian otomatis dengan format UND-XXXX.
+#   Setiap data yang dimasukkan akan langsung disimpan, nama dan kode masuk ke dalam list dan data numerik masuk ke dalam array.
+
+#2. Jika user memilih tampilkan data, program akan menampilkan seluruh data pelanggan yang sudah tersimpan.
+
+#3. Jika user memilih rata-rata, program akan menghitung rata-rata total belanja dari seluruh pelanggan menggunakan NumPy.
+
+#4. Jika user memilih prioritas, program akan membandingkan total belanja setiap pelanggan dengan rata-rata.
+#   Pelanggan dengan total belanja lebih besar dari rata-rata akan ditampilkan sebagai pelanggan prioritas.
+
+#5. Program menentukan peserta undian dengan mengecek jumlah transaksi.
+#   Hanya pelanggan dengan jumlah transaksi minimal 3 yang dapat mengikuti undian.
+
+#6. Program menentukan jumlah slot undian berdasarkan total belanja.
+#   Jika total belanja kurang dari 300.000 maka mendapat 1 slot.
+#   Jika total belanja antara 300.000 sampai 700.000 maka mendapat 2 slot.
+#   Jika total belanja lebih dari 700.000 maka mendapat 3 slot.
+#   Jika pelanggan termasuk prioritas, maka akan mendapatkan tambahan 2 slot.
+
+#7. Ketika user memilih undi, program akan mengumpulkan semua slot undian ke dalam satu pool.
+#   Semakin banyak slot, semakin besar peluang untuk menang.
+#   Program kemudian memilih 2 pemenang secara acak tanpa ada pemenang yang sama.
+
+#8. Jika user ingin mencari data, program akan meminta kode undian pelanggan.
+#   Program kemudian mencocokkan kode tersebut dengan data yang ada dan menampilkan hasilnya jika ditemukan.
+
+#Semua proses ini berjalan berulang di dalam menu sampai user memilih keluar.
